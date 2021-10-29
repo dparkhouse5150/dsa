@@ -1,3 +1,12 @@
+/**
+ * a very simple search algorithm
+ * 
+ * @param arr   -- the array to search
+ * @param n     -- the length of the array
+ * @param x     -- the said item to find
+ *
+ * @returns {boolean} -- if the element wasn't found simple return a -1
+ */
 const linearSearch = (arr, n, x) => {
     let i
 
